@@ -1,0 +1,97 @@
+.latest_arrival_dress {
+    margin-bottom: 8.8rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;   
+}
+
+.dres_info {
+    width: 25rem;
+    height: 41rem;
+}
+.dres_info_child {
+     background-color: #F7F8FC;
+    width: 24.7rem;
+    height: 30rem;
+    margin-bottom: 1.1rem;
+}
+
+.dres_info_child>img {
+    padding: 2rem 5.8rem;
+}
+
+.top_sale {
+    position: relative;
+}
+.top {
+    position: absolute;
+    top: -25rem;
+    left: 1.5rem;
+    color: var(--white);
+    text-align: center;
+    font-family: outfit;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    width: 3.5rem;
+    height: 2.2rem;
+    border-radius: 2px;
+    background: #31797E;
+}
+
+.sale {
+    position: absolute;
+    top: -25rem;
+    right: 4px;
+    color: var(--white);
+    text-align: center;
+    font-family: outfit;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    width: 3.5rem;
+    height: 2.2rem;
+    border-radius: 2px;
+    background: var(--hot-sale-color);
+}
+
+.reviews {
+    color: #7F8698;
+    font-family: workSans;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 2.5rem;
+    padding-left: 0.5rem;
+}
+
+.h4_info {
+    color: #34394C;
+    font-family: workSans;
+    font-size: 2.2rem;
+    font-style: normal;
+    font-weight: 500;
+    padding: 1.5rem 0rem;
+}
+
+.size {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.size_two>span {
+    color: #A2A5AD;
+    text-align: center;
+    font-family: outfit;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    border-radius: 2px;
+    border: 0.8px solid #A5A9B2;
+    display: inline-block;
+    width: 2.4rem;
+    height: 2.5rem;
+}
+.size_s{
+    margin: 0px 0.5rem;
+}

@@ -1,0 +1,79 @@
+footer{
+    background: #E8EAEF;
+  
+}
+.footer_childs{
+   border-bottom: 2px solid  rgba(204, 210, 222, 0.81);;
+}
+.footer_childs_info{
+    display: flex;
+    justify-content: space-between;
+    margin: 8.9rem 0rem 7.5rem 0rem;
+}
+.footer_p{
+    color: #707686;
+font-family: workSans;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+margin: 2rem 0rem;
+
+}
+.input_sms{
+    width: 23.6rem;
+height: 4rem;
+border-radius: 3px;
+text-align: center;
+padding-top: 1rem;
+background: #FFF;
+margin-bottom: 2rem;
+}
+.input_sms>input{
+    color: #AEB0B8;
+font-family: workSans;
+font-size: 14px;
+font-style: normal;
+font-weight: 300;
+letter-spacing: -0.42px;
+border: none;
+outline: none;
+}
+.footer_icons{
+    display: flex;
+    gap: 2rem;
+}
+.footer_h5{
+    color:var(--text-main-color);
+font-family: workSans;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 2.8rem; 
+}
+.add_one{
+    display: flex;
+    gap: 20px;
+}
+.add_two{
+    display: flex;
+    gap: 20px;
+}
+.add_three{
+    display: flex;
+    gap: 20px;
+
+}
+
+.footer_four{
+    display: flex;
+    gap: 30px;
+}
+.footer_ulina{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+}
+.footer_ulina_info{
+    display: flex;
+    gap: 2rem;
+}

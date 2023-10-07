@@ -1,0 +1,48 @@
+header{
+    padding-top: 6.3rem;
+    background-color: var(--hero-bg-color);
+    padding-bottom: 18.7rem;
+}
+
+.hero{
+    display: flex;
+    align-items: center;
+   
+}
+.hero_info{
+  flex-grow: 1;
+  position: relative;
+  
+}
+.hero_info>img{
+    position: absolute;
+    right: 10rem;
+    bottom: -15rem;
+}
+
+
+h1{
+color:var(--text-main-color);
+font-family: outfit;
+font-size: 5rem;
+font-style: normal;
+font-weight: 500;
+line-height: 6rem;
+}
+
+.hero_img{
+    flex-grow: 1;
+    background-color: var(--white);
+    border-radius: 50%;
+    width: 35rem;
+    height: 41.6rem;
+    position: relative;
+}
+.hero_img>img{
+ position: absolute;
+ top: -6.3rem;
+ right: 50%;
+ transform: translateX(40%);
+}
+
+

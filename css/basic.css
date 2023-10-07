@@ -1,0 +1,127 @@
+@font-face {
+  font-family: workSans;
+  src: url("../fonts/WorkSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: outfit;
+  src: url("../fonts/Outfit-Regular.ttf");
+}
+
+:root {
+  --white: #fff;
+  --text-main-color: #34394c;
+  --text-second-color: #afb4c4;
+  --hot-sale-color: #f04726;
+  --main-color: #589195;
+  /*******  Background color  ******** */
+  --hero-bg-color: #DEECEC;
+  --product-bg-color: #f7f8fc;
+  --discount-bg-color: #f6f8fa;
+  --collection-bg-one: #e9e6f0;
+  --collection-bg-two: #f6ebd9;
+  --footer-bg-color: #e8eaef;
+}
+.container{
+  max-width: 111.2rem;
+  margin: 0 auto;
+}
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size : 10px */
+  font-size: 62.5%;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+.title{
+  color:var(--main-color);
+font-family: outfit;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+line-height: 6rem;
+
+}
+.textP{
+  color: #707686;
+font-family: workSans;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 300;
+line-height: 2.8rem;
+margin-bottom: 2.5rem;
+}
+.btn{
+  color:var(--white);
+text-align: center;
+font-family: outfit;
+font-size: 1.8rem;
+font-style: normal;
+font-weight: 400;
+
+padding: 1.1rem 3rem;
+border-radius: 38px;
+background-color:var(  --main-color) ;
+transition: all .5s linear;
+box-shadow: 2px 3px 5px var(--main-color);
+}
+.btn:active{
+  box-shadow: none;
+}
+.h2_info{
+  color:  var(--text-main-color);
+font-family: outfit;
+font-size: 5rem;
+font-style: normal;
+font-weight: 400;
+line-height: 6rem;
+margin-bottom: 1rem;
+}
+.size_one>span {
+  color: #297176;
+  font-family: workSans;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+}
+.size_del{
+  color: #969DAD;
+font-family: workSans;
+font-size: 2rem;
+font-style: normal;
+font-weight: 400;
+padding-left: 2rem;
+
+}
+.dots{
+  position: absolute;
+  bottom: -13rem;
+  right: 45%;
+  display: flex;
+  gap: 2rem;
+}
+.dots>span{
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: var(--main-color);
+  border-radius: 50%;
+  cursor: pointer;
+}

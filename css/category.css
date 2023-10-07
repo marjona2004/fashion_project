@@ -1,0 +1,49 @@
+.category{
+    margin-top: 9rem;
+}
+.cloths{
+   
+  width: 257px;
+  height: 300px;
+}
+.bags{
+  
+  width: 257px;
+  height: 300px;
+}
+.watches{
+
+  width: 257px;
+  height: 300px;
+}
+.jewellery{
+  
+  width: 257px;
+  height: 300px;
+}
+.shopByCategory{
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 7.5rem;
+}
+.shopBy_P{
+    color:var(--text-main-color);
+text-align: center;
+font-family: outfit;
+font-size: 28px;
+font-style: normal;
+font-weight: 400;
+margin: 2rem 0;
+}
+.shopBy_Span{
+    color: #BFBFBF;
+    display:flex;
+text-align: center;
+justify-content: center;
+
+font-family: outfit;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+}

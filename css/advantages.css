@@ -1,0 +1,24 @@
+.adventages {
+    margin: 8.25rem 0rem 6.1rem 0rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .adventages__box > div {
+    height: 5.5rem;
+    display: flex;
+    align-items: center;
+  }
+  .adventages__box > h3 {
+    color: var(--text-main-color);
+    font-size: 1.8rem;
+    font-family: workSans;
+    font-weight: 500;
+    line-height: 6rem;
+  }
+  .adventages__box > p {
+    color: #7f8698;
+    font-size: 1.6rem;
+    font-family: workSans;
+    font-weight: 300;
+    line-height: 2.5rem;
+  }
